@@ -22,7 +22,7 @@ services:
     environment:
       ### Variables for the container
       NODE_ENV: production
-      TZ: Etc/UTC
+      TZ: Europe/Berlin
 
       ### Overridden variables for Docker Compose setup
       # The `nightscout` service can use HTTP, because we use `traefik` to serve the HTTPS
